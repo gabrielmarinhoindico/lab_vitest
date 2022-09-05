@@ -1,22 +1,23 @@
-## vitest
+# vitest
 	- foco em performance ( threads running in parallel)
 	- foco em teste unitário
 	- suporta typescript e tsx
 	- cypress comparation:
-    	- Cypress for all browser-based logic.
-    	- we suggest using Vitest for all headless logic
-    	- will catch issues that vitest cannot because they use real browser and real browser API's
-    	- (vitest fala com simula o browser baseado em jsdom e ele não tem algumas api's inclusas, como window.navigation e layouts engines, como offset)
-    	- não tem suporte nativo para requests, recomendam instalar em conjunto uma lib chamada mock Service Worker	
+		- VITEST SUGGEST:
+			- Cypress for all browser-based logic.
+			- Vitest for all headless logic
+    		- will catch issues that vitest cannot because they use real browser and real browser API's
+    		- vitest simulate browser based on jsdom and jsdom don't support some API'S as window.navigation and layouts engines - as offset;
+    		- don't have native support for requests, recommend install together the lib Mock Service Worker	
 		
-		reference with nexTJS
+		> reference with nexTJS
 			https://github.com/vitest-dev/vitest/blob/main/examples/nextjs/vitest.config.ts
 			
-		docs:
+		> docs:
 			https://vitest.dev/guide/why.html
 			
 
-		reference test:
+		> reference test:
 			https://vitest.dev/guide/mocking.html#requests
 			https://relatablecode.com/testing-a-react-application-integrating-msw-with-vitest
 			https://github.com/mswjs/msw/discussions/1192
