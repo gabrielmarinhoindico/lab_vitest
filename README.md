@@ -1,4 +1,4 @@
-vitest
+## vitest
 	- foco em performance ( threads running in parallel)
 	- foco em teste unitário
 	- suporta typescript e tsx
